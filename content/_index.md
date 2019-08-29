@@ -10,8 +10,6 @@ fullWidth: false
 
 <p class="text-large">{{%md%}}The web is a bloated, over-engineered mess. *The Lean Web* is a set of principles for a simpler, faster world-wide web.{{%/md%}}</p>
 
-*The Lean Web* is available as [a talk](/talk), [an ebook](/ebook), and a [collection of resources](/resources).
-
 {{<cta for="leanweb-home">}}
 
 <a class="btn" href="/talk">Watch the Talk</a> <a class="btn" href="/ebook">Read the Ebook</a> <a class="btn" href="/resources">Get Resources</a>
