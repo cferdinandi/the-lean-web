@@ -389,3 +389,16 @@ if (document.querySelector('#table-of-contents')) {
 if (document.body.matches('.js-anchors')) {
 	addHeadingLinks('h2, h3, h4, h5, h6', '#', 'link-no-underline');
 }
+
+// Relocate next page links
+(function () {
+
+	// Get elements
+	var next = document.querySelector('[data-next-page]');
+	var footnotes = document.querySelector('.footnotes');
+	if (!next || !footnotes) return;
+
+	// Move the link
+	footnotes.parentNode.insertBefore(next, footnotes);
+
+})();

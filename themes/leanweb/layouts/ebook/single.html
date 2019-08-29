@@ -5,7 +5,7 @@
 	{{ partial "content-page-no-article.html" . }}
 
 	{{- if and (.PrevPage) (ne .Params.lastPage "true") -}}
-		<p><a class="btn" href="{{ .PrevPage.URL }}">{{ .PrevPage.Title }} &rarr;</a></p>
+		<p data-next-page><a class="btn" href="{{ .PrevPage.URL }}">{{ .PrevPage.Title }} &rarr;</a></p>
 	{{- end -}}
 
 	<h2>Chapters</h2>
