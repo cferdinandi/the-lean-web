@@ -38,3 +38,5 @@ Learn what the web platform provides for you out-of-the-box at the **[Vanilla JS
 - [Polyfill.io](https://polyfill.io)
 - [The A11Y Project](https://a11yproject.com/)
 - [Accessibility Nutrition Cards](https://davatron5000.github.io/a11y-nutrition-cards/)
+
+{{<mailchimp intro="true">}}
