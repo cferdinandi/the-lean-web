@@ -1,9 +1,5 @@
-# Vanilla JS Toolkit
+# The Lean Web
 
-A growing collection of vanilla JavaScript code snippets, helper functions, polyfills, plugins, and learning resources.
+The web is a bloated, over-engineered mess. *The Lean Web* is a set of principles for a simpler, faster world-wide web.
 
-**[View the Toolkit](https://vanillajstoolkit.com)**
-
-## Todo
-
-- [ ] Add [autoexpanding text area](https://gomakethings.com/automatically-expand-a-textarea-as-the-user-types-using-vanilla-javascript/)
+[LeanWeb.dev](https://leanweb.dev)
