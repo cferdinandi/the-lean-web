@@ -1,0 +1,1 @@
+<li{{ if eq .URL "/talk/" }} class="active"{{ end }}><a href="{{ "/talk" | absURL }}">The Talk</a></li><li{{ if or (eq .URL "/helpers/") (eq .Type "ebook") }} class="active"{{ end }}><a href="{{ "/ebook" | absURL }}">The Book</a></li><li{{ if eq .URL "/resources/" }} class="active"{{ end }}><a href="{{ "/resources" | absURL }}">Resources</a></li>

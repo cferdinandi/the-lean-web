@@ -1,0 +1,28 @@
+{{ partial "header.html" . }}
+
+<article>
+
+	{{ partial "content-page-no-article.html" . }}
+
+	{{- if and (.PrevPage) (ne .Params.lastPage "true") -}}
+		<p><a class="btn" href="{{ .PrevPage.URL }}">{{ .PrevPage.Title }} &rarr;</a></p>
+	{{- end -}}
+
+	<h2>Chapters</h2>
+
+	<ol>
+		{{- range .Parent.Pages -}}
+			<li>
+				<a href="{{ .URL }}">{{ .Title }}</a>
+			</li>
+		{{- end -}}
+	</ol>
+
+</article>
+
+<aside>
+	{{ partial "mailchimp-intro.html" . }}
+	{{ partial "mailchimp-form.html" }}
+</aside>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,13 @@
+/**
+ * @section Footnotes
+ * Styling for footnotes.
+ */
+
+.footnotes {
+	@extend .text-small;
+	padding-top: 1em;
+
+	hr {
+		@extend [hidden];
+	}
+}

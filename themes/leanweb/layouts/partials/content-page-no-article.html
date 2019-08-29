@@ -1,0 +1,9 @@
+{{ if not .Params.noTitle }}
+<h1>{{ ( .Title | htmlUnescape ) }}</h1>
+{{ end }}
+
+{{ if and (eq .Type "ebook") (.IsPage) }}
+<div id="table-of-contents"></div>
+{{ end }}
+
+{{ .Content }}
