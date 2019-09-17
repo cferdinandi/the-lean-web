@@ -6,7 +6,7 @@ noTitle: false
 noIndex: false
 ---
 
-Want me to deliver this talk at your event or organization? Send me an email at {{<email params="subject=The%20Lean%20Web&body=I'm%20interested%20in%20having%20you%20talk%20about%20The%20Lean%20Web%20at%20{{EVENT/ORGANIZATION}}%20on%20{{DATE}}.">}}
+Want me to deliver this talk at your event or organization? Send me an email at {{<email params="subject=The%20Lean%20Web&body=I'm%20interested%20in%20having%20you%20talk%20about%20The%20Lean%20Web%20at%20{{EVENT/ORGANIZATION}}%20on%20{{DATE}}.">}}.
 
 {{<cta for="leanweb-talk">}}
 
