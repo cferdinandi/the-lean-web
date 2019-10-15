@@ -12,7 +12,7 @@
 	background-color: lighten( $color-gray-light, 7% );
 
 	@media (prefers-color-scheme: dark) {
-		color: $color-gray-light;
+		background-color: lighten( $color-black, 7% );
 	}
 }
 

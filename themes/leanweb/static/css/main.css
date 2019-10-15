@@ -1844,7 +1844,7 @@ td {
 @media (prefers-color-scheme: dark) {
   /* line 11, src/sass/components/_overrides.scss */
   .bg-muted {
-    color: #e5e5e5;
+    background-color: #393939;
   }
 }
 
