@@ -15,6 +15,10 @@ Want me to deliver this talk at your event or organization? Send me an email at 
 <a class="btn" href="https://speakerdeck.com/cferdinandi/the-lean-web">Get the Slides</a>
 
 <div class="padding-top-large padding-bottom">
+	{{<testimonial for="chrisCoyier2" photo="true">}}
+</div>
+
+<div class="padding-bottom">
 	{{<testimonial for="stevenSlack" photo="true">}}
 </div>
 
