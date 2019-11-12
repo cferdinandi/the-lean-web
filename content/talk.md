@@ -37,3 +37,7 @@ Want me to deliver this talk at your event or organization? Send me an email at 
 <div class="padding-bottom">
 	{{<testimonial for="barryConlon" photo="true">}}
 </div>
+
+<div class="padding-bottom">
+	{{<testimonial for="davidWalsh" photo="true">}}
+</div>
