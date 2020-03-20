@@ -12,7 +12,7 @@ noIndex: false
 
 {{<cta for="products">}}
 
-**Want more?** I also created a [vanilla JS learning roadmap](https://learnvanillajs.com) and host the [Vanilla JS Podcast](https://vanillajspodcast.com).
+**Want more?** I also host the [Vanilla JS Podcast](https://vanillajspodcast.com), and code vanilla JS projects live at [Vanilla JS Prep School](https://vanillajsprepschool.com).
 
 ## Platform-Native Features
 
