@@ -6,7 +6,7 @@ noTitle: false
 noIndex: false
 ---
 
-{{<cta for="leanweb-resources">}}
+{{<cta for="funnel">}}
 
 ## Learning Resources
 

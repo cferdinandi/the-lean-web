@@ -8,7 +8,7 @@ noIndex: false
 
 Want me to deliver this talk at your event or organization? Send me an email at {{<email params="subject=The%20Lean%20Web&body=I'm%20interested%20in%20having%20you%20talk%20about%20The%20Lean%20Web%20at%20{{EVENT/ORGANIZATION}}%20on%20{{DATE}}.">}}.
 
-{{<cta for="leanweb-talk">}}
+{{<cta for="funnel">}}
 
 <iframe src="https://player.vimeo.com/video/360577301?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
