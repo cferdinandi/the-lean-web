@@ -10,7 +10,7 @@ Want me to deliver this talk at your event or organization? Send me an email at 
 
 {{<cta for="funnel">}}
 
-<iframe src="https://player.vimeo.com/video/360577301?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/360577301?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
 <a class="btn" href="https://speakerdeck.com/cferdinandi/the-lean-web">Get the Slides</a>
 
