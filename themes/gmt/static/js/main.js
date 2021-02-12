@@ -51,7 +51,7 @@
 			if (!heading.id) continue;
 			let hLink = link.cloneNode(true);
 			hLink.href = `#${heading.id}`;
-			heading.append(hLink);
+			heading.append(' ', hLink);
 		}
 
 	}
