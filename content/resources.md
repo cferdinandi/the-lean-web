@@ -12,8 +12,6 @@ noIndex: false
 
 {{<cta for="products">}}
 
-**Want more?** I also host the [Vanilla JS Podcast](https://vanillajspodcast.com), and code vanilla JS projects live at [Vanilla JS Prep School](https://vanillajsprepschool.com).
-
 ## Platform-Native Features
 
 Learn what the web platform provides for you out-of-the-box at the **[Vanilla JS Toolkit](https://vanillajstoolkit.com/)**.
