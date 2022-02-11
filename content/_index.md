@@ -24,4 +24,4 @@ fullWidth: false
 
 {{<mailchimp intro="true">}}
 
-{{<about-me>}}
+{{<cta for="bio-short">}}
