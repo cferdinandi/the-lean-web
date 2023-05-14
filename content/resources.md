@@ -6,35 +6,8 @@ noTitle: false
 noIndex: false
 ---
 
+Let's make {{<year>}} the year that you master&nbsp;JavaScript! You can do this. I can help.
+
 {{<cta for="funnel">}}
 
-## Learning Resources
-
 {{<cta for="products">}}
-
-## Platform-Native Features
-
-Learn what the web platform provides for you out-of-the-box at the **[Vanilla JS Toolkit](https://vanillajstoolkit.com/)**.
-
-## Static Site Generators
-
-- [Hugo](https://gohugo.io/)
-- [Eleventy](https://www.11ty.io/)
-- [Jekyll](https://jekyllrb.com/)
-
-## Framework Alternatives
-
-- [Reef](https://github.com/cferdinandi/reef)
-- [HyperHTML](https://viperhtml.js.org/hyperhtml/documentation/)
-- [Svelte](https://svelte.dev/)
-- [Preact](https://preactjs.com/)
-- [lit-html](https://lit-html.polymer-project.org/)
-- [Object-Oriented CSS](https://www.slideshare.net/stubbornella/object-oriented-css)
-
-## Inclusive Development
-
-- [Polyfill.io](https://polyfill.io)
-- [The A11Y Project](https://a11yproject.com/)
-- [Accessibility Nutrition Cards](https://davatron5000.github.io/a11y-nutrition-cards/)
-
-{{<mailchimp intro="true">}}
