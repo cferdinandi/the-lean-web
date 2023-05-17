@@ -1,4 +1,4 @@
-/*! vanillajs v1.5.0 | (c) 2022 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/vanilla-js-toolkit */
+/*! vanillajs v1.5.0 | (c) 2023 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/vanilla-js-toolkit */
 (function () {
 	'use strict';
 
@@ -290,6 +290,47 @@
 
 	}
 
+	// Product URLs
+	let products = '[href*="https://learnvanillajs.com"], [href*="https://vanillajsprojects.com"], [href*="https://vanillajsguides.com"], [href*="https://vanillajsacademy.com"], [href*="https://vanillajsshorts.com"], [href*="https://leanwebclub.com"], .edd-buy-now-button';
+
+	/**
+	 * Get the value of a cookie
+	 * Source: https://gist.github.com/wpsmith/6cf23551dd140fb72ae7
+	 * @return {String}       The cookie value
+	 */
+	function getCookie () {
+		let value = '; ' + document.cookie;
+		let parts = value.split(`; gmt_aff=`);
+		if (parts.length == 2) return parts.pop().split(';').shift();
+	}
+
+	/**
+	 * Get affiliate from URL and set cookie
+	 */
+	function getAffiliate () {
+		let url = new URL(window.location.href);
+		let aff = url.searchParams.get('friend');
+		if (!aff) return;
+		url.searchParams.delete('friend');
+		history.replaceState(history.state, '', url.href);
+		document.cookie = `gmt_aff=${aff}; path=/; max-age=${60 * 60 * 24 * 28};`;
+	}
+
+	/**
+	 * Add affiliate code to each purchase link
+	 * @param {String} selector The selector string for links
+	 */
+	function setAffiliate (selector = '.edd-buy-now-button') {
+		let aff = getCookie();
+		if (!aff) return;
+		let links = document.querySelectorAll(selector);
+		for (let link of links) {
+			let url = new URL(link);
+			url.searchParams.set('friend', aff);
+			link.href = url.href;
+		}
+	}
+
 	// ConvertKit form
 	convertkit();
 
@@ -318,5 +359,9 @@
 
 	// Pricing parity
 	pricingParity('https://gomakethings.com/checkout/wp-json/gmt-pricing-parity/v1/discount/', '<div class="container container-large"><img width="100" style="float:left;margin: 0.125em 1em 1em 0;" src="https://flagpedia.net/data/flags/normal/{{iso}}.png"><p class="text-small no-margin-bottom">Hi! Looks like you\'re from <strong>{{country}}</strong>, where my <strong>The Lean Web</strong> ebook might be a bit expensive. A <strong>{{amount}}% discount</strong> will automatically be applied to at checkout. Cheers!</p></div>');
+
+	// Affiliate marketing
+	getAffiliate();
+	setAffiliate(products);
 
 }());
