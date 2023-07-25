@@ -12,6 +12,8 @@ fullWidth: false
 
 {{<cta for="funnel">}}
 
+{{<join>}}
+
 <a class="btn" href="/talk">Watch the Talk</a> <a class="btn" href="/ebook">Read the Ebook</a> <a class="btn" href="/resources">Get Resources</a>
 
 <div class="padding-top-large padding-bottom">

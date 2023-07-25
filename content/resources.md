@@ -10,4 +10,6 @@ Let's make {{<year>}} the year that you master&nbsp;JavaScript! You can do this.
 
 {{<cta for="funnel">}}
 
+{{<join>}}
+
 {{<cta for="products">}}
